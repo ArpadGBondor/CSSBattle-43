@@ -12,42 +12,34 @@ body {
   background-color: #6592cf;
   width: 400px;
   height: 300px;
+  padding: 0;
   position: relative;
   overflow: hidden;
 }
 
 .body {
-  height: 100%;
-  width: 100%;
   margin: 8px;
+  width: 100%;
+  height: 100%;
 }
 
-.container * {
+.container .body * {
   background: #6592cf;
   position: absolute;
   height: 100%;
 }
-.y {
+.container .body i {
   left: 40px;
-}
-.z {
-  right: 40px;
-}
-.a {
-  background: #243d83;
+  border: 30px solid #243d83;
   border-radius: 70px;
   top: 22px;
   width: 200px;
-  height: 242px;
-}
-.b {
-  width: 140px;
   height: 182px;
-  border-radius: 40px;
-  top: 30px;
-  left: 30px;
 }
-.c {
+.container .body i + i {
+  left: -190px;
+}
+.container .body div {
   width: 110px;
   left: 137px;
   overflow: hidden;
